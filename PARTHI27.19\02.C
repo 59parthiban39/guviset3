@@ -1,8 +1,13 @@
 #include <stdio.h>
+
 #include<string.h>
-int main(void) {
+
+int main(void)
+{
 	char a[10];
 	int i,l,count=0;
+	
+	
 	scanf("%s",a);
 	l=strlen(a);
 	for(i=0;i<l;i++)
@@ -15,6 +20,8 @@ int main(void) {
   if(count==0)
   printf("No");
   else
+	  
   printf("Yes");
+	
 	return 0;
 }
